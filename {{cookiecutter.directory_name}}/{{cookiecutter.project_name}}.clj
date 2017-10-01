@@ -4,8 +4,8 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
-  :dependencies [[org.clojure/clojure {{cookiecutter.clojure_version}}]
-                 [org.clojure/clojurescript {{cookiecutter.clojurescript_version}} :scope "provided"]
+  :dependencies [[org.clojure/clojure "{{cookiecutter.clojure_version}}"]
+                 [org.clojure/clojurescript "{{cookiecutter.clojurescript_version}}" :scope "provided"]
                  [com.cognitect/transit-clj "0.8.300"]
                  [ring "1.6.2"]
                  [ring/ring-defaults "0.3.1"]
