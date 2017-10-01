@@ -3,8 +3,11 @@
 
 (nodejs/enable-util-print!)
 
+(def chalk (js/require "chalk"))
+
 (defn -main []
-  (println "Hello NodeJS!"))
+  (println "Hello NodeJS!")
+  (println (chalk.blue "BLUE")))
 
 (set! *main-cli-fn* -main)
 
