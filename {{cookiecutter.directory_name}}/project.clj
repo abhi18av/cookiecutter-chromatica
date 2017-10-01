@@ -42,7 +42,33 @@
   :repl-options {:init-ns user}
 
   :cljsbuild {:builds
-              [{:id "app"
+              [ {:id "nodejs"
+                :source-paths ["src/nodejs"] ; "dev"]
+
+                ;:figwheel {:on-jsload "{{cookiecutter.project_name}}.system/reset"}
+
+                :compiler {:main {{cookiecutter.project_name}}.core
+                           :target :nodejs
+                           :figwheel true
+                           ;:asset-path "js/compiled/out"
+                           :output-to "target/js/compiled/nodejs/{{cookiecutter.project_name}}.js"
+                           :output-dir "target/js/compiled/nodejs/out"
+                           :pretty-print true
+                           :optimizations :none ; :simple 
+                           :parallel-build true
+                           ;:npm-deps {:chalk "2.1.0"}
+                           ;:install-deps true
+                           ;:source-map true
+                           ;:warnings false
+                           :source-map-timestamp true}}
+
+
+
+
+
+
+
+              {:id "app"
                 :source-paths ["src/cljs" "src/cljc" "dev"]
 
                 :figwheel {:on-jsload "{{cookiecutter.project_name}}.system/reset"}
