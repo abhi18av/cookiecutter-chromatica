@@ -9,6 +9,9 @@
   "dependencies": {
       "chalk": "^2.1.0"
   },
+  "scripts":{
+    "test":"lein clean && lein cljsbuild once nodejs && node target/js/compiled/nodejs/projectx.js"
+  },
   "devDependencies": {
     "source-map-support": "^0.4.15",
     "ws": "^0.8.1"
