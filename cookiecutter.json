@@ -1,5 +1,7 @@
 {
-    "directory_name": "Hello",
-    "file_name": "Howdy",
-    "greeting_recipient": "Julie"
+    "directory_name": "chromaticax",
+    "project_name": "projectx",
+    "clojure_version" : "1.8.0",
+    "clojurescript_version" : "1.9.671",
+    "nodejs_version" : "8.4.0"
 }
