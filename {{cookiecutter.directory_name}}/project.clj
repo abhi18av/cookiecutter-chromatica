@@ -6,6 +6,45 @@
 
   :dependencies [[org.clojure/clojure "{{cookiecutter.clojure_version}}"]
                  [org.clojure/clojurescript "{{cookiecutter.clojurescript_version}}" :scope "provided"]
+
+;; superguns begins
+
+                            ;; Clojure AST to EDN
+                            [org.clojure/tools.analyzer "0.6.9"]
+
+                            ;; Concrete implementation of tools.analyzer
+                            [org.clojure/tools.analyzer.jvm "0.7.0"]
+
+                            ;; Clojure reader in clojure
+                            [org.clojure/tools.reader "1.0.5"]
+
+                            ; Quickcheck
+                            [org.clojure/test.check "0.10.0-alpha2"]
+
+                            ;; Asynchronous stuff
+                            [org.clojure/core.async "0.3.443"]
+
+
+                            ;; promises for CLJ(s)
+                            [funcool/promesa "1.9.0"]
+
+
+                            ;; Pattern matching in clojure
+                            [org.clojure/core.match "0.3.0-alpha5"]
+
+                            ;; MiniKanren
+                            [org.clojure/core.logic "0.8.11"]
+
+                            ;; Documentation using marginalia
+                            [lein-marginalia "0.9.0"]
+
+                            ;; Boot documenataion tool Codox
+                            [lein-codox "0.10.3"]
+
+                            ;; Shell library
+                            [me.raynes/conch "0.8.0"]
+;;;;; superguns end
+
                  [com.cognitect/transit-clj "0.8.300"]
                  [ring "1.6.2"]
                  [ring/ring-defaults "0.3.1"]
