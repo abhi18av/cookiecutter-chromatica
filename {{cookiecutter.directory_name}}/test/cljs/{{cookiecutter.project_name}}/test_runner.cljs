@@ -1,10 +1,10 @@
-(ns chromatica2.test-runner
+(ns {{cookiecutter.project_name}}.test-runner
   (:require
    [doo.runner :refer-macros [doo-tests]]
-   [chromatica2.core-test]
-   [chromatica2.common-test]))
+   [{{cookiecutter.project_name}}.core-test]
+   [{{cookiecutter.project_name}}.common-test]))
 
 (enable-console-print!)
 
-(doo-tests 'chromatica2.core-test
-           'chromatica2.common-test)
+(doo-tests '{{cookiecutter.project_name}}.core-test
+           '{{cookiecutter.project_name}}.common-test)

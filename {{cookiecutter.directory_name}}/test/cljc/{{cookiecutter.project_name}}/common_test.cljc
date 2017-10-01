@@ -1,6 +1,6 @@
-(ns chromatica2.common-test
+(ns {{cookiecutter.project_name}}.common-test
   #? (:cljs (:require-macros [cljs.test :refer (is deftest testing)]))
-  (:require [chromatica2.common :as sut]
+  (:require [{{cookiecutter.project_name}}.common :as sut]
             #?(:clj [clojure.test :refer :all]
                :cljs [cljs.test])))
 

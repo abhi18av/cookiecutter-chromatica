@@ -1,4 +1,4 @@
-(ns chromatica2.core-test
+(ns {{cookiecutter.project_name}}.core-test
   (:require-macros [cljs.test :refer (is deftest testing)])
   (:require [cljs.test]))
 

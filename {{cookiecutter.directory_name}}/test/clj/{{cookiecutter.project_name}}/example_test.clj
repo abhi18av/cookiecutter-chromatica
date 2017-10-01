@@ -1,4 +1,4 @@
-(ns chromatica2.example-test
+(ns {{cookiecutter.project_name}}.example-test
   (:require [clojure.test :refer :all]))
 
 (deftest example-passing-test
