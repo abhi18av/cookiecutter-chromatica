@@ -1,7 +1,7 @@
 {
     "directory_name": "chromaticax",
     "project_name": "projectx",
-    "clojure_version" : "1.8.0",
-    "clojurescript_version" : "1.9.671",
+    "clojure_version" : "1.9.0-beta1",
+    "clojurescript_version" : "1.9.908",
     "nodejs_version" : "8.4.0"
 }
