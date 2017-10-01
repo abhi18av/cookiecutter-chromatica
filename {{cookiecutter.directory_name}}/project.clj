@@ -31,7 +31,7 @@
 
   :clean-targets ^{:protect false} [:target-path :compile-path "resources/public/js"]
 
-  :uberjar-name "{{cookiecutter.project_name}}"
+  :uberjar-name "{{cookiecutter.project_name}}.jar"
 
   ;; Use `lein run` if you just want to start a HTTP server, without figwheel
   :main {{cookiecutter.project_name}}.application
