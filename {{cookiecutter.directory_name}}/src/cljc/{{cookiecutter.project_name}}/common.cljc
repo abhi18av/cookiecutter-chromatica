@@ -1,4 +1,4 @@
-(ns chromatica2.common)
+(ns {{cookiecutter.project_name}}.common)
 
 (defn shared-fn
   "A function that is shared between clj and cljs"

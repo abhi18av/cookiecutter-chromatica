@@ -1,10 +1,10 @@
-(ns chromatica2.core
+(ns {{cookiecutter.project_name}}.core
   (:require [reagent.core :as reagent]
             [re-frame.core :as re-frame]
-            [chromatica2.events]
-            [chromatica2.subs]
-            [chromatica2.views :as views]
-            [chromatica2.config :as config]))
+            [{{cookiecutter.project_name}}.events]
+            [{{cookiecutter.project_name}}.subs]
+            [{{cookiecutter.project_name}}.views :as views]
+            [{{cookiecutter.project_name}}.config :as config]))
 
 (enable-console-print!)
 

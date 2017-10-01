@@ -1,4 +1,4 @@
-(ns chromatica2.views
+(ns {{cookiecutter.project_name}}.views
   (:require [re-frame.core :as re-frame]))
 
 (defn main-panel []

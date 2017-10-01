@@ -1,6 +1,6 @@
-(ns chromatica2.components.ui
+(ns {{cookiecutter.project_name}}.components.ui
   (:require [com.stuartsierra.component :as component]
-            [chromatica2.core :refer [render]]))
+            [{{cookiecutter.project_name}}.core :refer [render]]))
 
 (defrecord UIComponent []
   component/Lifecycle

@@ -1,4 +1,4 @@
-(ns chromatica2.subs
+(ns {{cookiecutter.project_name}}.subs
   (:require-macros [reagent.ratom :refer [reaction]])
   (:require [re-frame.core :as re-frame]))
 

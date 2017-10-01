@@ -1,6 +1,6 @@
-(ns chromatica2.system
+(ns {{cookiecutter.project_name}}.system
   (:require [com.stuartsierra.component :as component]
-            [chromatica2.components.ui :refer [new-ui-component]]))
+            [{{cookiecutter.project_name}}.components.ui :refer [new-ui-component]]))
 
 (declare system)
 

@@ -1,4 +1,4 @@
-(ns chromatica2.config)
+(ns {{cookiecutter.project_name}}.config)
 
 (def debug?
   ^boolean goog.DEBUG)
