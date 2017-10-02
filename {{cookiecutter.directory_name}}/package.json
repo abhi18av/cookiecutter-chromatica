@@ -10,7 +10,8 @@
       "chalk": "^2.1.0"
   },
   "scripts":{
-    "lein-nodejs":"lein clean && lein cljsbuild once nodejs && node target/js/compiled/nodejs/{{cookiecutter.project_name}}.js"
+    "compile":"lein clean && lein cljsbuild once nodejs && node target/js/compiled/nodejs/{{cookiecutter.project_name}}.js",
+    "repl":"node target/js/compiled/nodejs-repl/{{cookiecutter.project_name}}.js"
   },
   "devDependencies": {
     "source-map-support": "^0.4.15",

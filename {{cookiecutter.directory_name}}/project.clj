@@ -4,7 +4,8 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
-  :dependencies [[org.clojure/clojure "{{cookiecutter.clojure_version}}"]
+  :dependencies [
+                 [org.clojure/clojure "{{cookiecutter.clojure_version}}"]
                  [org.clojure/clojurescript "{{cookiecutter.clojurescript_version}}" :scope "provided"]
 
 ;; superguns begins
@@ -89,15 +90,39 @@
   :repl-options {:init-ns user}
 
   :cljsbuild {:builds
-              [ {:id "nodejs"
+              [ {:id "nodejs-repl"
+                :source-paths ["src/nodejs"] ; "dev"]
+                :figwheel true
+
+                :compiler {:main projectx.core
+                           :target :nodejs
+                           ;:asset-path "js/compiled/out"
+                           :output-to "target/js/compiled/nodejs-repl/{{cookiecutter.project_name}}.js"
+                           :output-dir "target/js/compiled/nodejs-repl/out"
+                           :pretty-print true
+                           :optimizations :none ; :simple
+                           :parallel-build true
+                           ;:npm-deps {:chalk "2.1.0"}
+                           ;:install-deps true
+                           ;:source-map true
+                           :warnings false
+                           :source-map-timestamp true}}
+
+
+
+
+
+
+
+              {:id "nodejs"
                 :source-paths ["src/nodejs"] ; "dev"]
 
+                ;; Figwheel indicates wrong position for this pair
+                ;:figwheel true
                 ;:figwheel {:on-jsload "{{cookiecutter.project_name}}.system/reset"}
 
                 :compiler {:main {{cookiecutter.project_name}}.core
                            :target :nodejs
-                           ;; Figwheel indicates wrong position for this pair
-                           ;:figwheel true
                            ;:asset-path "js/compiled/out"
                            :output-to "target/js/compiled/nodejs/{{cookiecutter.project_name}}.js"
                            :output-dir "target/js/compiled/nodejs/out"

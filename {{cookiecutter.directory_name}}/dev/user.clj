@@ -1,5 +1,6 @@
 (ns user
   (:require [{{cookiecutter.project_name}}.application]
+            [me.raynes.conch :refer [programs with-programs let-programs] :as sh]
             [com.stuartsierra.component :as component]
             [figwheel-sidecar.config :as fw-config]
             [figwheel-sidecar.system :as fw-sys]
@@ -38,3 +39,21 @@
 (defn browser-repl []
   (println "(browser-repl) is deprecated, use (cljs-repl)")
   (cljs-repl))
+
+
+
+(defn fig-start
+  []
+  (figwheel/start-figwheel!))
+
+(defn fig-stop
+  []
+  (figwheel/stop-figwheel!))
+
+(defn nodejs-repl 
+  []
+  ;(println "The nodejs-repl function is executed now")
+  ;; This isn't the solution!
+  ; (with-programs [node]
+  ;  (node "target/js/compiled/nodejs-repl/{{cookiecutter.project_name}}.js")))
+  (figwheel/cljs-repl)
