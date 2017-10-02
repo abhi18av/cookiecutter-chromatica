@@ -94,7 +94,7 @@
                 :source-paths ["src/nodejs"] ; "dev"]
                 :figwheel true
 
-                :compiler {:main projectx.core
+                :compiler {:main {{cookiecutter.project_name}}.core
                            :target :nodejs
                            ;:asset-path "js/compiled/out"
                            :output-to "target/js/compiled/nodejs-repl/{{cookiecutter.project_name}}.js"
