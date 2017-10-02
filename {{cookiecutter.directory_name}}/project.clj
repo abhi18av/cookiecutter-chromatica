@@ -96,7 +96,8 @@
 
                 :compiler {:main {{cookiecutter.project_name}}.core
                            :target :nodejs
-                           :figwheel true
+                           ;; Figwheel indicates wrong position for this pair
+                           ;:figwheel true
                            ;:asset-path "js/compiled/out"
                            :output-to "target/js/compiled/nodejs/{{cookiecutter.project_name}}.js"
                            :output-dir "target/js/compiled/nodejs/out"
