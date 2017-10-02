@@ -56,4 +56,4 @@
   ;; This isn't the solution!
   ; (with-programs [node]
   ;  (node "target/js/compiled/nodejs-repl/{{cookiecutter.project_name}}.js")))
-  (figwheel/cljs-repl)
+  (figwheel/cljs-repl))
