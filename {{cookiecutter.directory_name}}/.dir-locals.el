@@ -3,4 +3,5 @@
          ;(cider-cljs-lein-repl    . "(do (user/go) (user/cljs-repl))")
          (cider-cljs-lein-repl    . "(do (user/fig-start) (user/nodejs-repl))"))))
 
-;(async-shell-command "node ")
+
+;(async-shell-command "npm run repl")
