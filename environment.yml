@@ -1,6 +1,5 @@
 name: root
 channels:
-- pstey
 - anaconda
 - r
 - bioconda
@@ -16,7 +15,6 @@ dependencies:
 - matplotlib=2.0.2=np113py35_0
 - mkl=2017.0.3=0
 - nltk=3.2.4=py35_0
-- numpy=1.13.1=py35_0
 - pandas=0.20.3=py35_0
 - pyqt=5.6.0=py35_2
 - pytz=2017.2=py35_0
@@ -24,11 +22,27 @@ dependencies:
 - qtconsole=4.3.1=py35_0
 - sip=4.18=py35_0
 - widgetsnbextension=3.0.1=py35_0
+- jemalloc=4.5.0=0
+- ruby=2.2.3=0
+- tbb=4.4_20150728=0
+- arpack=3.5.0=blas_openblas_201
+- blas=1.1=openblas
 - conda=4.3.27=py35_0
 - conda-env=2.6.0=0
+- fftw=3.3.6=3
+- gsl=2.2.1=blas_openblas_2
+- julia=0.6.0=blas_openblas_200
+- libgit2=0.25.1=0
+- metis=5.1.0=3
+- mpfr=3.1.5=0
+- numpy=1.13.3=py35_blas_openblas_200
+- openblas=0.2.19=2
+- openlibm=0.5.4=0
+- openspecfun=0.5.3=0
+- pcre2=10.21=3
 - ply=3.10=py35_0
-- ruby=2.3.3=0
 - setproctitle=1.1.10=py35_0
+- suitesparse=4.5.4=blas_openblas_200
 - xonsh=0.5.12=py35_2
 - asn1crypto=0.22.0=py35_0
 - bleach=1.5.0=py35_0
@@ -50,7 +64,6 @@ dependencies:
 - freetype=2.5.5=2
 - glib=2.50.2=1
 - gmp=6.1.0=0
-- gsl=2.2.1=0
 - gst-plugins-base=1.8.0=0
 - gstreamer=1.8.0=0
 - harfbuzz=0.9.39=2
@@ -70,6 +83,7 @@ dependencies:
 - krb5=1.13.2=0
 - libffi=3.2.1=1
 - libgcc=5.2.0=0
+- libgfortran=3.0.0=1
 - libiconv=1.14=0
 - libpng=1.6.27=0
 - libsodium=1.0.10=0
@@ -124,7 +138,6 @@ dependencies:
 - yaml=0.1.6=0
 - zeromq=4.1.5=0
 - zlib=1.2.8=3
-- julia=0.6.0=1
 - r-assertthat=0.2.0=r3.4.1_0
 - r-backports=1.1.0=r3.4.1_0
 - r-base=3.4.1=0
