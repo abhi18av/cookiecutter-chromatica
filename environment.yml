@@ -9,8 +9,6 @@ channels:
 dependencies:
 - bkcharts=0.2=py35_0
 - bokeh=0.12.6=py35_0
-- conda=4.3.25=py35_0
-- conda-env=2.6.0=0
 - cycler=0.10.0=py35_0
 - ipywidgets=6.0.0=py35_0
 - jupyter=1.0.0=py35_3
@@ -26,7 +24,10 @@ dependencies:
 - qtconsole=4.3.1=py35_0
 - sip=4.18=py35_0
 - widgetsnbextension=3.0.1=py35_0
+- conda=4.3.27=py35_0
+- conda-env=2.6.0=0
 - ply=3.10=py35_0
+- ruby=2.3.3=0
 - setproctitle=1.1.10=py35_0
 - xonsh=0.5.12=py35_2
 - asn1crypto=0.22.0=py35_0

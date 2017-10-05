@@ -9,6 +9,7 @@ A [cookiecutter](http://cookiecutter.readthedocs.io/en/latest/readme.html) templ
 
 ## How to use
 
+**NOTE**: For all pre/post hooks to work need to recreate the `conda-env`
 
 1. Install `cookiecutter` 
 
