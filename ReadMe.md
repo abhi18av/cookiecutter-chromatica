@@ -21,7 +21,9 @@ cookiecutter https://github.com/abhi18av/cookiecutter-chromatica
 
 3. `cd` into the folder and run the `npm install` command.
 
-4. 
+4. Then run `lein figwheel`
+
+5. And then in another terminal run `npm run repl`
 
 ## ToDo
 
