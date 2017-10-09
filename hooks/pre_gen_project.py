@@ -8,23 +8,25 @@ c = r[r.head()]
 c.message
 porcelain.log(".", max_entries=1)
 
-# pip3 install markdown
-# pip3 install mistune
+# pip install dulwich
+# pip install mistune
 
-# pip3 install pyyaml
+# pip install pyyaml
 
-# pip3 install edn_format
+# pip install edn_format
+# pip install toml
 
-
-# pip3 install toml
-
-# pip3 install csvkit
-
+# pip install csvkit
 # pip install Click
 
 # pip install xmltodict
+# pip install ptpython
 
-# pip install ptpython 
+# pip install sh
+# pip install delegator.py
+
+# pip install records
+# pip install jrnl
 
 
 # https://www.codacy.com/
@@ -45,11 +47,4 @@ https://github.com/bjonnh/PyOrgMode
 
 pip install git+https://github.com/hylang/hy.git
 
-# pip install sh
-# pip install delegator.py
-
-
-pip install records
-pip install jrnl
-
-https://github.com/xonsh/xonsh
+#https://github.com/xonsh/xonsh
