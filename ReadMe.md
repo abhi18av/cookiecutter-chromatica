@@ -1,5 +1,14 @@
 ## ReadMe
 
+Export `conda` environment
+
+```
+conda env export > environment.yml
+
+```
+
+
+
 A [cookiecutter](http://cookiecutter.readthedocs.io/en/latest/readme.html) template for Browser Automation using **Clojure(script)** - **Selenium** - **Puppeteer**
 
 
@@ -35,3 +44,6 @@ cookiecutter https://github.com/abhi18av/cookiecutter-chromatica
 ```
 - Add a post-hook for initial git commit
 - Add pre-hooks for asking to check the latest version of clojure(script) and dependencies
+
+
+

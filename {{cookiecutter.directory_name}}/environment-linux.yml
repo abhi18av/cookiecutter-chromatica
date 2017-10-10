@@ -264,43 +264,83 @@ dependencies:
 - r-zoo=1.8_0=r3.4.1_0
 - rstudio=1.0.153=1
 - pip:
+  - agate==1.6.0
+  - agate-dbf==0.2.0
+  - agate-excel==0.2.1
+  - agate-sql==0.5.2
+  - appdirs==1.4.3
+  - args==0.1.0
   - arrow==0.10.0
+  - astor==0.5
   - astroid==1.5.3
   - autopep8==1.3.2
+  - babel==2.5.1
   - beautifulsoup4==4.6.0
   - binaryornot==0.4.4
   - chardet==3.0.4
   - click==6.7
+  - clint==0.5.1
   - cookiecutter==1.5.1
+  - csvkit==1.0.2
+  - dbfread==2.0.7
   - docker-py==1.10.6
   - docker-pycreds==0.2.1
   - docopt==0.6.2
+  - dulwich==0.18.4
+  - edn-format==0.5.13
+  - et-xmlfile==1.0.1
   - exofrills==0.1.14
   - future==0.16.0
+  - hy==0.13.0+138.gdb21092
   - ipython-genutils==0.2.0
+  - isodate==0.5.4
   - isort==4.2.15
+  - jdcal==1.3
   - jinja2-time==0.2.0
+  - jrnl==1.9.8
   - jupyter-client==5.1.0
   - jupyter-console==5.2.0
   - jupyter-core==4.3.0
+  - keyring==10.4.0
   - lazy-object-proxy==1.3.1
   - lazyasd==0.1.3
+  - leather==0.3.3
   - lxml==3.8.0
   - mccabe==0.6.1
   - oauthlib==2.0.2
+  - odfpy==1.3.5
+  - openpyxl==2.4.8
   - osquery==2.2.1
+  - parsedatetime==2.4
   - pipreqs==0.4.9
   - poyo==0.4.1
   - prompt-toolkit==1.0.15
+  - ptpython==0.41
   - pycodestyle==2.3.1
   - pylint==1.7.2
+  - pyrfc3339==1.0
+  - python-slugify==1.2.4
+  - pytimeparse==1.1.7
+  - records==0.5.2
   - requests-oauthlib==0.8.0
+  - rply==0.7.5
+  - secretstorage==2.3.1
+  - sh==1.12.14
+  - sqlalchemy==1.1.14
+  - tablib==0.12.1
   - thrift==0.10.0
+  - toml==0.9.3
   - tweepy==3.5.0
+  - tzlocal==1.4
+  - unicodecsv==0.14.1
+  - unidecode==0.4.21
   - urwid==1.3.1
   - websocket-client==0.44.0
   - whichcraft==0.4.1
   - wrapt==1.10.11
+  - xlrd==1.1.0
+  - xlwt==1.3.0
+  - xmltodict==0.11.0
   - xonda==0.1.7
   - xonsh-apt-tabcomplete==0.1.4
   - xonsh-autoxsh==0.2

@@ -27,14 +27,22 @@ porcelain.log(".", max_entries=1)
 # pip install ptpython
 
 # pip install sh
-# pip install delegator.py
 
 # pip install jrnl
-https://github.com/bjonnh/PyOrgMode
 
-
+# PyOrgMode
+# git clone https://github.com/bjonnh/PyOrgMode.git
+# cd PyOrgMode/
+# sudo python setup.py install
 
 # https://www.codacy.com/
+
+#pip install git+https://github.com/hylang/hy.git
+
+#https://github.com/xonsh/xonsh
+
+
+# For delivering the binaries
 
 
 https://codecov.io/
@@ -47,8 +55,3 @@ https://bintray.com/
 https://www.ansible.com/
 
 
-
-
-pip install git+https://github.com/hylang/hy.git
-
-#https://github.com/xonsh/xonsh
