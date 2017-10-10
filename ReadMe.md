@@ -3,7 +3,7 @@
 Export `conda` environment
 
 ```
-conda env export > environment.yml
+conda env export -n root > environment-linux.yml
 
 ```
 
@@ -37,7 +37,6 @@ cookiecutter https://github.com/abhi18av/cookiecutter-chromatica
 
 ## ToDo
 
-- Add `.travis` etc
 - Use a specific version of `node`
 ```sh
 /Users/eklavya/.nvm/versions/node/v8.4.0/bin/node
