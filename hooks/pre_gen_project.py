@@ -44,7 +44,8 @@ porcelain.log(".", max_entries=1)
 
 # For delivering the binaries
 
-
+https://coveralls.io/
+  
 https://codecov.io/
 
 https://www.jfrog.com/
